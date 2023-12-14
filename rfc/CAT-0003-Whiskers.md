@@ -33,11 +33,14 @@ core team realised that this process would need to be repeated every time a
 palette update was considered.
 
 From that realisation, we started to push towards new ports being created with
-Catppuccin [language libraries](). For example, a number of our repositories use
-the [catppuccin/palette]() NPM library to generate the required configuration
-files. This has the benefit of allowing us to update the libraries, push out a
-new release and, in theory, ports can easily bring in this new release and use
-the new features immediately.
+Catppuccin [language
+libraries](https://github.com/catppuccin/palette#available-formats). For
+example, a number of our repositories use the
+[catppuccin/palette](https://github.com/catppuccin/palette#node-package) NPM
+library to generate the required configuration files. This has the benefit of
+allowing us to update the libraries, push out a new release and, in theory,
+ports can easily bring in this new release and use the new features
+immediately.
 
 The language libraries are an amazing step forward for Catppuccin as it allows
 ports to be more consistent and easier to maintain. We would like to sincerely
