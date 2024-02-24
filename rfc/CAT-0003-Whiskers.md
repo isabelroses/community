@@ -5,8 +5,8 @@ Date: **2023-12-14**
 ## Status
 
 | Draft | In Review | Done |
-| :---: | --------- | ---- |
-|  ☑️    |         |      |
+|:-----:|-----------|------|
+|  ☑️   |           |      |
 
 ## Proposed By
 
@@ -49,10 +49,10 @@ being said, we found that the language libraries are not suitable for every
 generating every single port.
 
 As aforementioned, language libraries are brilliant for ports that already
-integrate with a build system / programming language, but we asked ourselves: 
+integrate with a build system / programming language, but we asked ourselves:
 
-- **Do you really need or want an entire programming language + build script to
-generate some hex codes into a README?**
+- **Do we really need or want an entire programming language + build script to
+  generate some hex codes into a README?**
 
 At this point, we realised that we needed to take a step back and brainstorm a
 solution that would work for all ports, regardless of complexity. After numerous
@@ -62,18 +62,21 @@ to easily create a Catppuccin port.
 
 ## Goals
 
-TODO
+- Improve the developer experience for creating, updating and maintaining
+  Catppuccin ports.
+- Make it easier to apply palette updates across the entire GitHub organisation.
+- Give the developer (and users!) confidence that the colours conform to
+  the Catppuccin palette.
 
 ## Non-Goals
 
 - Replace the existing language libraries. This tool will be an addition to the
   toolbox of tools available to port creators.
-
-TODO
+- Create another barrier of entry for creating a simple Catppuccin port.
 
 ## Proposal
 
-We would like to propose a new port creation tool called `Whiskers` as the
+We would like to propose a new port creation tool called `whiskers` as the
 **standard way to create and maintain Catppuccin ports**.
 
 TODO
@@ -92,7 +95,7 @@ TODO
 
 ### Build System
 
-TODO: 
+TODO:
 
 ## Pros
 
